@@ -1,4 +1,11 @@
 # AGPLv3 + Reverse engineering permission
+Richard Stallman approval: pending
+Bruce Perens approval: pending
+FSF approval: pending
+SPDX approval: needs help
+DFSG approvaL: needs help
+OSI approval: needs help
+GNU project approval: needs help
 <details>
   <summary>Background</summary>
   ## Legal
