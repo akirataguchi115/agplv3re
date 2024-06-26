@@ -1,13 +1,18 @@
 # AGPLv3 + Reverse engineering permission
-Richard Stallman approval: pending
-Bruce Perens approval: pending
-FSF approval: pending
-SPDX approval: needs help
-DFSG approvaL: needs help
-OSI approval: needs help
-GNU project approval: needs help
+
 <details>
   <summary>Background</summary>
+  
+  | Approval                  | Status     |
+  | ------------------------- | ---------- |
+  | Richard Stallman approval | Pending    |
+  | Bruce Perens approval     | Pending    |
+  | FSF approval              | Pending    |
+  | SPDX approval             | Needs help |
+  | DFSG approvaL             | Needs help |
+  | OSI approval              | Needs help |
+  | GNU project approval      | Needs help |
+  
   ## Legal
   The difference between GPL + Classpath excetion vs. LGPL is the permission to combine work and reverse engineer: https://opensource.stackexchange.com/questions/1410/what-is-the-difference-between-gpl-classpath-exception-vs-lgpl
   
@@ -18,7 +23,7 @@ GNU project approval: needs help
   Although physically restricting reverse engineering is not possible (even less so with free software), contractual restriction of reverse engineering is a very viable option.
 
   ## What do we need reverse engineering for if the source code is already available?
-  Did you compile the program yourself? Did you verify the hashes against the delivered binaries to your own? Did you compile your compiler yourself? Did you compile the operating system yourself? Is the SaaSS problem present, i.e. are you swallowing the "AGPLv3 binaries" through an API or over the network?
+  Did you compile the program yourself? Did you verify the hashes against the delivered binaries to your own? Did you compile your compiler yourself? Did you compile the operating system yourself? Is you hardware free as in freedom? Is the SaaSS problem present, i.e. are you swallowing the "AGPLv3 binaries" through an API or over the network?
 
   Trust should not come without verifications. Explicit permission to reverse engineer gives us a chance to do sanity checks to the binaries we use out of conveniency every now and then.
 
