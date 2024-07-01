@@ -682,7 +682,7 @@ For more information on this, and how to apply and follow the GNU AGPL, see
 | GNU project approval      | Needs help 🙋 |
 
 ## Legal
-The difference between GPL + Classpath excetion vs. LGPL is the permission to combine work and reverse engineer: https://opensource.stackexchange.com/questions/1410/what-is-the-difference-between-gpl-classpath-exception-vs-lgpl
+The difference between GPL + Classpath exception vs. LGPL is the permission to combine work and reverse engineer: https://opensource.stackexchange.com/questions/1410/what-is-the-difference-between-gpl-classpath-exception-vs-lgpl
 
 Combining work is something natural to LGPL which AGPL users would not want to inherit. Reverse engineering however seems like a missed opportunity which is why AGPLv3RE was created.
 
