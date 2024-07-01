@@ -1,130 +1,7 @@
 # AGPLv3 + Reverse engineering permission
-
 <details>
-  <summary>Background</summary>
+  <summary>Click to open copyable license</summary>
   
-  | Approval                  | Status     |
-  | ------------------------- | ---------- |
-  | Richard Stallman approval | Pending    |
-  | Bruce Perens approval     | Pending    |
-  | FSF approval              | Pending    |
-  | SPDX approval             | Needs help |
-  | DFSG approvaL             | Needs help |
-  | OSI approval              | Needs help |
-  | GNU project approval      | Needs help |
-
-
-  
-  ## Legal
-  The difference between GPL + Classpath excetion vs. LGPL is the permission to combine work and reverse engineer: https://opensource.stackexchange.com/questions/1410/what-is-the-difference-between-gpl-classpath-exception-vs-lgpl
-  
-  Combining work is something natural to LGPL which AGPL users would not want to inherit. Reverse engineering however seems like a missed opportunity which is why AGPLv3RE was created.
-
-  Reverse engineering a computer program is not always permitted by law. For example in Finland you can only reverse engineer a computer program if you are a legal user of the program and you need to reverse engineer it for interoperability purposes: https://www.finlex.fi/fi/laki/ajantasa/1961/19610404#L2P25 . In the United States of America according to the DMCA one permission for example to reverse engineer is for security audit purposes: https://www.govinfo.gov/content/pkg/PLAW-105publ304/pdf/PLAW-105publ304.pdf . In the EU you can only reverse engineer a computer program if it is publicly available or if one is legally possessing the said program: https://eur-lex.europa.eu/eli/dir/2016/943/oj .
-
-  Although physically restricting reverse engineering is not possible (even less so with free software), contractual restriction of reverse engineering is a very viable option.
-
-  ## What do we need reverse engineering for if the source code is already available?
-  Did you compile the program yourself? Did you verify the hashes against the delivered binaries to your own? Did you compile your compiler yourself? Did you compile the operating system yourself? Is you hardware free as in freedom? Is the SaaSS problem present, i.e. are you swallowing the "AGPLv3 binaries" through an API or over the network?
-
-  Trust should not come without verifications. Explicit permission to reverse engineer gives us a chance to do sanity checks to the binaries we use out of conveniency every now and then.
-
-  ## How can I help?
-  Create Issues and Pull requests regarding agplv3re, this README and anything in betweeen. 
-
-  ## Diff
-  ```diff
-  13. Remote Network Interaction; Use with the GNU General Public License.
-
-  Notwithstanding any other provision of this License, if you modify the
-Program, your modified version must prominently offer all users
-interacting with it remotely through a computer network (if your version
-supports such interaction) an opportunity to receive the Corresponding
-Source of your version by providing access to the Corresponding Source
-from a network server at no charge, through some standard or customary
-means of facilitating copying of software.  This Corresponding Source
-shall include the Corresponding Source for any work covered by version 3
-of the GNU General Public License that is incorporated pursuant to the
-following paragraph.
-
-  Notwithstanding any other provision of this License, you have
-permission to link or combine any covered work with a work licensed
-under version 3 of the GNU General Public License into a single
-combined work, and to convey the resulting work.  The terms of this
-License will continue to apply to the part which is the covered work,
-but the work with which it is combined will remain governed by version
-3 of the GNU General Public License.
-
-+  14. Permission to reverse engineer
-+
-+  You may reverse engineer the program, executable format or otherwise.
-+
-+  15. Revised Versions of this License.
--  14. Revised Versions of this License.
-
-  The Free Software Foundation may publish revised and/or new versions of
-the GNU Affero General Public License from time to time.  Such new versions
-will be similar in spirit to the present version, but may differ in detail to
-address new problems or concerns.
-
-  Each version is given a distinguishing version number.  If the
-Program specifies that a certain numbered version of the GNU Affero General
-Public License "or any later version" applies to it, you have the
-option of following the terms and conditions either of that numbered
-version or of any later version published by the Free Software
-Foundation.  If the Program does not specify a version number of the
-GNU Affero General Public License, you may choose any version ever published
-by the Free Software Foundation.
-
-  If the Program specifies that a proxy can decide which future
-versions of the GNU Affero General Public License can be used, that proxy's
-public statement of acceptance of a version permanently authorizes you
-to choose that version for the Program.
-
-  Later license versions may give you additional or different
-permissions.  However, no additional obligations are imposed on any
-author or copyright holder as a result of your choosing to follow a
-later version.
-
-+  16. Disclaimer of Warranty.
--  15. Disclaimer of Warranty.
-
-  THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
-APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
-HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY
-OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
-THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
-PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM
-IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF
-ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
-
-+  17. Limitation of Liability.
--  16. Limitation of Liability.
-
-  IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
-WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS
-THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY
-GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE
-USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF
-DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD
-PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),
-EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF
-SUCH DAMAGES.
-
-+  18. Interpretation of Sections 16 and 17.
--  17. Interpretation of Sections 15 and 16.
-
-  If the disclaimer of warranty and limitation of liability provided
-above cannot be given local legal effect according to their terms,
-reviewing courts shall apply local law that most closely approximates
-an absolute waiver of all civil liability in connection with the
-Program, unless a warranty or assumption of liability accompanies a
-copy of the Program in return for a fee.
-```
-
-
-</details>
-
 ```
                     GNU AFFERO GENERAL PUBLIC LICENSE
                        Version 3, 19 November 2007
@@ -688,7 +565,7 @@ but the work with which it is combined will remain governed by version
 
   14. Permission to reverse engineer
 
-  You may reverse engineer the program, executable or otherwise.
+  You may reverse engineer the program in its executable format or in any other format.
 
   15. Revised Versions of this License.
 
@@ -791,4 +668,121 @@ specific requirements.
 if any, to sign a "copyright disclaimer" for the program, if necessary.
 For more information on this, and how to apply and follow the GNU AGPL, see
 <https://www.gnu.org/licenses/>.
+```
+</details>
+
+| Approval                  | Status        |
+| ------------------------- | ------------- |
+| Richard Stallman approval | Pending ⌛    |
+| Bruce Perens approval     | Pending ⌛    |
+| FSF approval              | Pending ⌛    |
+| SPDX approval             | Needs help 🙋 |
+| DFSG approvaL             | Needs help 🙋 |
+| OSI approval              | Needs help 🙋 |
+| GNU project approval      | Needs help 🙋 |
+
+## Legal
+The difference between GPL + Classpath excetion vs. LGPL is the permission to combine work and reverse engineer: https://opensource.stackexchange.com/questions/1410/what-is-the-difference-between-gpl-classpath-exception-vs-lgpl
+
+Combining work is something natural to LGPL which AGPL users would not want to inherit. Reverse engineering however seems like a missed opportunity which is why AGPLv3RE was created.
+
+Reverse engineering a computer program is not always permitted by law. For example in Finland you can only reverse engineer a computer program if you are a legal user of the program and you need to reverse engineer it for interoperability purposes: https://www.finlex.fi/fi/laki/ajantasa/1961/19610404#L2P25 . In the United States of America according to the DMCA one permission for example to reverse engineer is for security audit purposes: https://www.govinfo.gov/content/pkg/PLAW-105publ304/pdf/PLAW-105publ304.pdf . In the EU you can only reverse engineer a computer program if it is publicly available or if one is legally possessing the said program: https://eur-lex.europa.eu/eli/dir/2016/943/oj .
+
+Although physically restricting reverse engineering is not possible (even less so with free software), contractual restriction of reverse engineering is a very viable option.
+
+## What do we need reverse engineering for if the source code is already available?
+Did you compile the program yourself? Did you verify the hashes against the delivered binaries to your own? Did you compile your compiler yourself? Did you compile the operating system yourself? Is you hardware free as in freedom? Is the SaaSS problem present, i.e. are you swallowing the "AGPLv3 binaries" through an API or over the network?
+
+Trust should not come without verifications. Explicit permission to reverse engineer gives us a chance to do sanity checks to the binaries we use out of conveniency every now and then.
+
+## How can I help?
+Create Issues and Pull requests regarding agplv3re, this README and anything in betweeen. 
+## Diff
+```diff
+  13. Remote Network Interaction; Use with the GNU General Public License.
+
+  Notwithstanding any other provision of this License, if you modify the
+Program, your modified version must prominently offer all users
+interacting with it remotely through a computer network (if your version
+supports such interaction) an opportunity to receive the Corresponding
+Source of your version by providing access to the Corresponding Source
+from a network server at no charge, through some standard or customary
+means of facilitating copying of software.  This Corresponding Source
+shall include the Corresponding Source for any work covered by version 3
+of the GNU General Public License that is incorporated pursuant to the
+following paragraph.
+
+  Notwithstanding any other provision of this License, you have
+permission to link or combine any covered work with a work licensed
+under version 3 of the GNU General Public License into a single
+combined work, and to convey the resulting work.  The terms of this
+License will continue to apply to the part which is the covered work,
+but the work with which it is combined will remain governed by version
+3 of the GNU General Public License.
+
++  14. Permission to reverse engineer
++
++  You may reverse engineer the program in its executable format or in any other format.
++
++  15. Revised Versions of this License.
+-  14. Revised Versions of this License.
+
+  The Free Software Foundation may publish revised and/or new versions of
+the GNU Affero General Public License from time to time.  Such new versions
+will be similar in spirit to the present version, but may differ in detail to
+address new problems or concerns.
+
+  Each version is given a distinguishing version number.  If the
+Program specifies that a certain numbered version of the GNU Affero General
+Public License "or any later version" applies to it, you have the
+option of following the terms and conditions either of that numbered
+version or of any later version published by the Free Software
+Foundation.  If the Program does not specify a version number of the
+GNU Affero General Public License, you may choose any version ever published
+by the Free Software Foundation.
+
+  If the Program specifies that a proxy can decide which future
+versions of the GNU Affero General Public License can be used, that proxy's
+public statement of acceptance of a version permanently authorizes you
+to choose that version for the Program.
+
+  Later license versions may give you additional or different
+permissions.  However, no additional obligations are imposed on any
+author or copyright holder as a result of your choosing to follow a
+later version.
+
++  16. Disclaimer of Warranty.
+-  15. Disclaimer of Warranty.
+
+  THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
+APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
+HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY
+OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM
+IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF
+ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
++  17. Limitation of Liability.
+-  16. Limitation of Liability.
+
+  IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS
+THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY
+GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE
+USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF
+DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD
+PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),
+EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGES.
+
++  18. Interpretation of Sections 16 and 17.
+-  17. Interpretation of Sections 15 and 16.
+
+  If the disclaimer of warranty and limitation of liability provided
+above cannot be given local legal effect according to their terms,
+reviewing courts shall apply local law that most closely approximates
+an absolute waiver of all civil liability in connection with the
+Program, unless a warranty or assumption of liability accompanies a
+copy of the Program in return for a fee.
 ```
