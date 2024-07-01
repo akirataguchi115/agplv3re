@@ -696,7 +696,9 @@ Did you compile the program yourself? Did you verify the hashes against the deli
 Trust should not come without verifications. Explicit permission to reverse engineer gives us a chance to do sanity checks to the binaries we use out of conveniency every now and then.
 
 ## How can I help?
-Create Issues and Pull requests regarding agplv3re, this README and anything in betweeen. 
+Create Issues and Pull requests regarding agplv3re, this README and anything in betweeen.
+## Licensee detection
+The license detection can be tested here: https://github.com/akirataguchi115/agplv3retest/ . For now it detects it "correctly" as `AGPL-3.0 license`.
 ## Diff
 ```diff
   13. Remote Network Interaction; Use with the GNU General Public License.
