@@ -563,9 +563,10 @@ License will continue to apply to the part which is the covered work,
 but the work with which it is combined will remain governed by version
 3 of the GNU General Public License.
 
-  14. Permission to reverse engineer
+  14. Reverse Engineering.
 
-  You may reverse engineer the program in its executable format or in any other format.
+  You may convey a covered work under the terms of this license so that,
+taken together, effectively do not restrict reverse engineering.
 
   15. Revised Versions of this License.
 
@@ -722,9 +723,10 @@ License will continue to apply to the part which is the covered work,
 but the work with which it is combined will remain governed by version
 3 of the GNU General Public License.
 
-+  14. Permission to reverse engineer
++  14. Reverse Engineering.
 +
-+  You may reverse engineer the program in its executable format or in any other format.
++  You may convey a covered work under the terms of this license so that,
++taken together, effectively do not restrict reverse engineering.
 +
 +  15. Revised Versions of this License.
 -  14. Revised Versions of this License.
