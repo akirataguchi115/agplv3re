@@ -671,15 +671,15 @@ For more information on this, and how to apply and follow the GNU AGPL, see
 ```
 </details>
 
-| Approval                  | Status        |
-| ------------------------- | ------------- |
-| Richard Stallman approval | Pending ⌛    |
-| Bruce Perens approval     | Pending ⌛    |
-| FSF approval              | Pending ⌛    |
-| SPDX approval             | Needs help 🙋 |
-| DFSG approvaL             | Needs help 🙋 |
-| OSI approval              | Needs help 🙋 |
-| GNU project approval      | Needs help 🙋 |
+| Approval                  | Status                                                                                                                                                |
+| ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Richard Stallman approval | ❌ Disapproved due to the lack of reverse engineering specification (decompilation, dissassembly, etc.). Considers adding a similar clause to AGPLv4. |
+| Bruce Perens approval     | ❌ Disapproved due to a better license (Post-open). Section 4 isn't quite an affirmative permission.                                                  |
+| FSF approval              | ⌛ Pending                                                                                                                                            |
+| SPDX approval             | 🙋 Needs help                                                                                                                                         |
+| DFSG approval             | 🙋 Needs help                                                                                                                                         |
+| OSI approval              | 🙋 Needs help                                                                                                                                         |
+| GNU project approval      | 🙋 Needs help                                                                                                                                         |
 
 ## Legal
 The difference between GPL + Classpath exception vs. LGPL is the permission to combine work and reverse engineer: https://opensource.stackexchange.com/questions/1410/what-is-the-difference-between-gpl-classpath-exception-vs-lgpl
