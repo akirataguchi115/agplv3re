@@ -699,7 +699,7 @@ Trust should not come without verifications. Explicit permission to reverse engi
 ## How can I help?
 Create Issues and Pull requests regarding agplv3re, this README and anything in betweeen.
 ## Licensee detection
-The license detection can be tested here: https://github.com/akirataguchi115/agplv3retest/ . For now it detects it "correctly" as `AGPL-3.0 license`.
+The license detection can be tested here: https://github.com/akirataguchi115/agplv3retest/ . For now it detects it "correctly" as `AGPL-3.0 license`in the previous commit. You can see from the commit history how the licensee doesn't detect the current license as AGPL-3.0.
 ## Diff
 ```diff
   13. Remote Network Interaction; Use with the GNU General Public License.
